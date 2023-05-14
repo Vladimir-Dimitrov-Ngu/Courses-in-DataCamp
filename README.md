@@ -25,6 +25,7 @@ history - show the request history
 grep - seasrch string or word or... in file (grep word file.txt)
 
 **Note : click tab - input the first match; click x2 tab - view all optionts;**
+
 Flags : 
 1. -n : numbers of count (head -n 100 ...)
 2. -R : all files view (ls -R)
