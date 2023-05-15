@@ -24,6 +24,25 @@ history - show the request history
 
 grep - seasrch string or word or... in file (grep word file.txt)
 
+> - redirect optut in one file into another (head file.txt > file_2.txt)
+
+| - use the output of the command on the left as the input to the command on the right (head file.txt | tail -n 3)
+
+  
+ **read the file with cut: cut -d , -f numbers of columns**
+ 
+ Tables for wc:
+ $$
+\begin{array}{|l|l|l|}
+\hline \text { Параметр } & \text { Длинньй вариант } & \text { Значение } \\
+\hline-c & \text {--bytes } & \text { Отобразить размер объекта в байтах } \\
+\hline-m & \text {--count } & \text { Показать количесто символов в объекте } \\
+\hline-1 & -- \text { ines } & \text { Вьвести количество строк в объекте } \\
+\hline-w & \text {-words } & \text { Отобразить количество слов в объекте } \\
+\hline
+\end{array}
+$$
+
 **Note : click tab - input the first match; click x2 tab - view all optionts;**
 
 Flags : 
