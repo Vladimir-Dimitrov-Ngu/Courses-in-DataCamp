@@ -32,16 +32,14 @@ grep - seasrch string or word or... in file (grep word file.txt)
  **read the file with cut: cut -d , -f numbers of columns**
  
  Tables for wc:
- $$
-\begin{array}{|l|l|l|}
-\hline \text { Параметр } & \text { Длинньй вариант } & \text { Значение } \\
-\hline-c & \text {--bytes } & \text { Отобразить размер объекта в байтах } \\
-\hline-m & \text {--count } & \text { Показать количесто символов в объекте } \\
-\hline-1 & -- \text { ines } & \text { Вьвести количество строк в объекте } \\
-\hline-w & \text {-words } & \text { Отобразить количество слов в объекте } \\
+\begin{tabular}{|l|l|l|}
+\hline Параметр & Длинньй вариант & Значение \\
+\hline$-c$ & --bytes & Отобразить размер объекта в байтах \\
+\hline$-m$ & --count & Показать количесто символов в объекте \\
+\hline-1 & -- ines & Вьвести количество строк в объекте \\
+\hline$-w$ & -words & Отобразить количество слов в объекте \\
 \hline
-\end{array}
-$$
+\end{tabular}
 
 **Note : click tab - input the first match; click x2 tab - view all optionts;**
 
