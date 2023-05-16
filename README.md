@@ -49,6 +49,12 @@ Flags :
 3. -f : fields (cut -f)
 4. -d:  delimiter (cut -f, ..., -d)
 
+
+**Create shell script**
+nano create.sh
+for i in files; do cat -d , -f 2 $i | grep -v 'name column' | sort | uniq -n | sort -r 
+bash create.sh > file.txt
+
 ### Spark 
 Spark is a distributed computing platform. It achieves efficiency by distributing data and computation across a cluster of computers.
 
@@ -56,3 +62,26 @@ parts of the Spark:
 - cluster manager
 - one or more nodes
 - API 
+
+
+### Data Structure and algorithm Python
+
+##### Linked lists
+
+Linked lists: sequence of data connected through links
+
+Every element names node and contain of 2 parts: first part - data, second part - pointer (to the next node). Last link point to null
+
+##### Stack 
+Princip: Last-in-First-out (LIFO) - last inserted item will be the first item to be removed
+
+Popping from the stack: remove the last item from the stack
+
+Peeking from the stack: read the last item from the stack 
+
+Stacks real uses:
+1. Undo functionality 
+2. Symbol checker 
+3. Function calls
+
+Stacks implemetation using singly linked lists
